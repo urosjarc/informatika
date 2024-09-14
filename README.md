@@ -51,14 +51,25 @@ Učna snov za predmet informatike za gimnazije.
 7. Python pogojne funkcije:
   * Kaj so pogojne funkcije.
   * Definiraj if funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if funkcije in za ta primer nariši flowchart risbo.
-  * Definiraj if-else funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if funkcije in za ta primer nariši flowchart risbo.
-  * Definiraj if-elif-else funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if funkcije in za ta primer nariši flowchart risbo.
+  * Definiraj if-else funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if-else funkcije in za ta primer nariši flowchart risbo.
+  * Definiraj if-elif-else funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if-elif-else funkcije in za ta primer nariši flowchart risbo.
   * Za podan flowchart napiši python kodo.
   * Za podano python kodo nariši flowchart.
 8. Python iterativne funkcije:
   * Kaj so iterativne funkcije.
-  * Definiraj while funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if funkcije in za ta primer nariši flowchart risbo.
-  * Definiraj for funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe if funkcije in za ta primer nariši flowchart risbo.
-  * Opiši operatorja ki prekineta normalni potek iterativne funkcije.
+  * Definiraj while funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe while funkcije in za ta primer nariši flowchart risbo.
+  * Definiraj for funkcijo, poimenuj njene sestavne elemente, napiši realen primer uporabe for funkcije in za ta primer nariši flowchart risbo.
+  * Opiši operatorja, ki prekineta normalni potek iterativne funkcije.
   * Za podan flowchart napiši python kodo.
   * Za podano python kodo nariši flowchart.
+9. Python tipne funkcije.
+  * Kaj so tipne funkcije ter kako dostopamo do njih.
+  * Naštej vse manipulativne metode str, list, dict, set tipov.
+  * Naštej vse matematične metode set tipa.
+  * Naštej vse methode file tipa.
+  * Ustvari program, ki prebere text ter za vsako vrstico izpiše število besed ter dolžino vrstice.
+  * Napiši program, ki prebere poved, za katero izpiše število samoglasnikov in jih nato vse zamenja z črko X.
+  * Napiši program, ki prebere poved in izpiše enake besede v obratnem vrstnem redu.
+  * Napiši program, ki prebere tekstovno datoteko nato pa za vsako besedo, ki se pojavi v tekstu izpiši število ponovitev v celotnem tekstu.
+  * Napiši program, ki iz dveh tekstovnih datotek najde skupne besede, besede ki se nahajajo samo v prvi, in nato še besede ki se nahajajo samo v drugi datoteki.
+  * Napiši program, ki prebere kodo iz napisanega programa in ustvari novo datoteko z enako vsebino samo da na začetku teksta doda poljuben komentar.
