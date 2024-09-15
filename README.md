@@ -73,3 +73,8 @@ Učna snov za predmet informatike za gimnazije.
   * Napiši program, ki prebere tekstovno datoteko nato pa za vsako besedo, ki se pojavi v tekstu izpiši število ponovitev v celotnem tekstu.
   * Napiši program, ki iz dveh tekstovnih datotek najde skupne besede, besede ki se nahajajo samo v prvi, in nato še besede ki se nahajajo samo v drugi datoteki.
   * Napiši program, ki prebere kodo iz napisanega programa in ustvari novo datoteko z enako vsebino samo da na začetku teksta doda poljuben komentar.
+10. Python uporabniške funkcije
+  * Kaj so uporabniške funkcije ter zakaj jih uporabljamo.
+  * Kaj so type hints-i ter zakaj jih uporabljamo ter kakšno vlogo imajo med izvajanjem programa.
+  * Definiraj uporabniško funkcijo z type hinti, poimenuj njene sestavne elemente, napiši realen primer uporabe uporabniške funkcije in za ta primer nariši flowchart risbo ter tabele spremenljivk.
+  * Opiši tipično strukturo python knjižnic ter ustvari svojo lastno knjižnico aritmetičnih matematičnih funkcij in sestavi algoritem, ki bo uporabljal vse funkcije v ustvarjenem paketu.
