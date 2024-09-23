@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 15px;
+        }
+        pre {
+            margin: 0
+        }
+        h1 {
+          margin: 30px;
+          color: red
+        }
+        h2 {
+          margin: 15px;
+        }
+        div>ul {
+          border-style: solid;
+          border-radius: 1px;
+          border-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="row">
+    <div class="col">
+        <h1>Osnovni tipi</h1>
+
+        <ul>
+            <li>bool, int, float, str</li>
+            <li>list, tuple, range</li>
+            <li>dict, set</li>
+            <li>file</li>
+            <li>None</li>
+        </ul>
+
+        <h1>Funkcije tipov</h1>
+        <ul>
+            <li>
+                <h2>Beseda</h2>
+                <ul>
+                    <li>
+                        <pre>str.count(str)                -> int</pre>
+                    </li>
+                    <li>
+                        <pre>str.index(str)                -> int</pre>
+                    </li>
+                    <li>
+                        <pre>str.isdigit()                 -> bool</pre>
+                    </li>
+                    <li>
+                        <pre>str.isspace()                 -> bool</pre>
+                    </li>
+                    <li>
+                        <pre>str.split(str)                -> list[str]</pre>
+                    </li>
+                    <li>
+                        <pre>str.strip(str)                -> str</pre>
+                    </li>
+                    <li>
+                        <pre>str.replace(old:str, new:str) -> str</pre>
+                    </li>
+                    <li>
+                        <pre>str.splitlines()              -> list[str]</pre>
+                    </li>
+                </ul>
+            </li>
+            <li><h2>Spisek</h2>
+                <ul>
+                    <li>
+                        <pre>list.append(any)</pre>
+                    </li>
+                    <li>
+                        <pre>list.clear()</pre>
+                    </li>
+                    <li>
+                        <pre>list.extend(list)</pre>
+                    </li>
+                    <li>
+                        <pre>list.insert(index:int, any)</pre>
+                    </li>
+                    <li>
+                        <pre>list.pop(int)               -> any</pre>
+                    </li>
+                    <li>
+                        <pre>list.remove(any)</pre>
+                    </li>
+                    <li>
+                        <pre>list.copy()                 -> list</pre>
+                    </li>
+                    <li>
+                        <pre>list.count(any)             -> int</pre>
+                    </li>
+                    <li>
+                        <pre>list.index(any)             -> int</pre>
+                    </li>
+                    <li>
+                        <pre>list.reverse()</pre>
+                    </li>
+                    <li>
+                        <pre>list.copy()                 -> list</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Slovar</h2>
+                <ul>
+                    <li>
+                        <pre>dict.clear()</pre>
+                    </li>
+                    <li>
+                        <pre>dict.pop(key:any) -> any</pre>
+                    </li>
+                    <li>
+                        <pre>dict.keys()       -> list</pre>
+                    </li>
+                    <li>
+                        <pre>dict.values()     -> list</pre>
+                    </li>
+                    <li>
+                        <pre>dict.copy()       -> dict</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Množica</h2>
+                <ul>
+                    <li>
+                        <pre>set.add(any)</pre>
+                    </li>
+                    <li>
+                        <pre>set.clear()</pre>
+                    </li>
+                    <li>
+                        <pre>set.remove(any)</pre>
+                    </li>
+                    <li>
+                        <pre>set.copy()            -> set</pre>
+                    </li>
+                    <li>
+                        <pre>set.difference(set)   -> set</pre>
+                    </li>
+                    <li>
+                        <pre>set.intersection(set) -> set</pre>
+                    </li>
+                    <li>
+                        <pre>set.union(set)        -> set</pre>
+                    </li>
+                    <li>
+                        <pre>set.issubset(set)     -> bool</pre>
+                    </li>
+                    <li>
+                        <pre>set.isdisjoint(set)   -> bool</pre>
+                    </li>
+                    <li>
+                        <pre>set.issuperset(set)   -> bool</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Datoteka</h2>
+                <ul>
+                    <li>
+                        <pre>file.readlines()  -> list[str]</pre>
+                    </li>
+                    <li>
+                        <pre>file.read()       -> str</pre>
+                    </li>
+                    <li>
+                        <pre>file.writelines()</pre>
+                    </li>
+                    <li>
+                        <pre>file.write()</pre>
+                    </li>
+                    <li>
+                        <pre>file.close()</pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="col">
+
+        <h1>Vgrajene funkcije</h1>
+        <ul>
+            <li>
+                <h2>Pretvarjalne</h2>
+                <ul>
+                    <li>
+                        <pre>bool(any)      -> bool</pre>
+                    </li>
+                    <li>
+                        <pre>float(str|num) -> float</pre>
+                    </li>
+                    <li>
+                        <pre>int(str|num)   -> int</pre>
+                    </li>
+                    <li>
+                        <pre>str(any)       -> str</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Sekvenčne</h2>
+                <ul>
+                    <li>
+                        <pre>range(start:int, end:int, step:int) -> range</pre>
+                    </li>
+                    <li>
+                        <pre>len(list[any])                      -> int</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Matematične</h2>
+                <ul>
+                    <li>
+                        <pre>abs(num)              -> num</pre>
+                    </li>
+                    <li>
+                        <pre>max(list[num])        -> num</pre>
+                    </li>
+                    <li>
+                        <pre>min(list[num])        -> num</pre>
+                    </li>
+                    <li>
+                        <pre>round(num, place:int) -> num</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Informacijske</h2>
+                <ul>
+                    <li>
+                        <pre>type(any) -> obj</pre>
+                    </li>
+                    <li>
+                        <pre>id(any)   -> int</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>IO</h2>
+                <ul>
+                    <li>
+                        <pre>print(any)         -> None</pre>
+                    </li>
+                    <li>
+                        <pre>input(str)         -> str</pre>
+                    </li>
+                    <li>
+                        <pre>open(str,mode:str) -> file</pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col">
+        <h1>Pogojne funkcije</h1>
+        <ul>
+            <li>
+                <h2>Eno vejna</h2>
+                <pre>
+if(bool):
+    ...
+    ...
+...
+...
+                </pre>
+            </li>
+            <li>
+                <h2>Dvo vejna</h2>
+                <pre>
+if(bool):
+    ...
+    ...
+else:
+    ...
+    ...
+...
+...
+                </pre>
+            </li>
+            <li>
+                <h2>Mnogo vejna</h2>
+                <pre>
+if(bool):
+    ...
+    ...
+elif(bool):
+    ...
+    ...
+else:
+    ...
+    ...
+...
+...
+                </pre>
+            </li>
+        </ul>
+    </div>
+    <div class="col">
+        <h1>Iteracijske funkcije</h1>
+        <ul>
+            <li>
+                <h2>While</h2>
+                <pre>
+while(bool):
+    ...
+    ...
+...
+...
+                </pre>
+            </li>
+            <li>
+                <h2>For</h2>
+                <pre>
+for(&lt;spremenljivka&gt; in &lt;list|tuple|range|dict|set&gt;):
+    ...
+    ...
+...
+...
+                </pre>
+            </li>
+            <li>
+                <h2>Operatorji</h2>
+                <ul>
+                    <li><b>break</b>: zaustavi if najbližje aktivne iterativne funkcije.</li>
+                    <li><b>continue</b>: skoci na if najbližje aktivne iterativne funkcije.</li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+    <div class="col">
+        <h1>Uporabniške funkcije</h1>
+        <ul>
+            <li>
+                <h2>Splošna</h2>
+                <pre>
+def &lt;ime&gt;(&lt;arg0&gt;:&lt;type&gt;, &lt;arg1&gt;:&lt;type&gt;, ...) -> &lt;type&gt;:
+    ...
+    return(any)
+...
+...
+        </pre>
+            </li>
+        </ul>
+        <h1>Modulske funkcije</h1>
+        <ul>
+            <li>
+                <h2>import math</h2>
+                <ul>
+                    <li>
+                        <pre>math.remainder(num) -> num</pre>
+                    </li>
+                    <li>
+                        <pre>math.pow(num, num)  -> num</pre>
+                    </li>
+                    <li>
+                        <pre>math.sqrt(num)      -> num</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>import random</h2>
+                <ul>
+                    <li>
+                        <pre>random.randint(int, int)     -> int</pre>
+                    </li>
+                    <li>
+                        <pre>random.uniform(float, float) -> float</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>import time</h2>
+                <ul>
+                    <li>
+                        <pre>time.sleep(sec: float)</pre>
+                    </li>
+                    <li>
+                        <pre>time.time()            -> float</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>import turtle</h2>
+                <ul>
+                    <li>
+                        <pre>turtle.forward(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.backward(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.left(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.right(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.goto(x:float, y:float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.home()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.circle(radius: float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.dot(size: int)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.speed(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.penup()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.pendown()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.pensize(float)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.reset()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.clear()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.write(str)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.showturtle()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.hideturtle()</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.textinput(title:str, prompt: str) -> str</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.delay(ms:int)</pre>
+                    </li>
+                    <li>
+                        <pre>turtle.onkeypress()</pre>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>import os</h2>
+                <ul>
+                    <li>
+                        <pre>os.listdir(str) -> list[str]</pre>
+                    </li>
+                    <li>
+                        <pre>os.mkdir(str)</pre>
+                    </li>
+                    <li>
+                        <pre>os.remove(str)</pre>
+                    </li>
+                    <li>
+                        <pre>os.rename(old:str, new:str)</pre>
+                    </li>
+                    <li>
+                        <pre>os.rmdir(str)</pre>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
