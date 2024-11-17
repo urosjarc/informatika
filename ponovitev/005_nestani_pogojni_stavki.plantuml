@@ -1,0 +1,28 @@
+
+[Edit online]
+
+@startuml
+
+start
+
+:Vnesi starost;
+:Vnesi dan;
+:Vnesi denar;
+
+if (Si polnoleten) then (yes)
+    if (Ima denar) then (yes)
+        if(dan je sobota ali nedelja) then (yes)
+            :Lahko gre v klub;
+        else (no)
+            :Klub je zaprt;
+        endif
+    else (no)
+        :Premalo ima denarja;
+  endif
+else (no)
+    :Ne mora iti ven;
+endif
+
+stop
+
+@enduml
