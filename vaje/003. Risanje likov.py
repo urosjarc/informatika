@@ -1,9 +1,10 @@
 import turtle
 
-def mandala():
+def mandala(stevilo):
   turtle.speed(-1)
-  for i in range(0, 10, 1):
-    turtle.left(36)
+  kot = 360 / stevilo
+  for i in range(0, stevilo, 1):
+    turtle.left(kot)
     turtle.circle(200)
 
 def mreza_pik():
@@ -22,8 +23,6 @@ def mreza_pik():
     turtle.pendown()
 
 def mreza_crt():
-    turtle.speed(-1)
-
     for i in range(10):
       turtle.forward(100)
       turtle.backward(100)
@@ -45,5 +44,6 @@ def mreza_crt():
       turtle.left(90)
       turtle.pendown()
 
+turtle.speed(2)
 mreza_crt()
 turtle.exitonclick()

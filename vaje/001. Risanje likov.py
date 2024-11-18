@@ -1,20 +1,22 @@
 import turtle
-def kvadrat():
+
+def kvadrat(dolzina):
   for i in range(0, 4, 1):
-    turtle.forward(100)
+    turtle.forward(dolzina)
     turtle.left(90)
 
-def crtice():
+def crtice(dolzina):
   for i in range(0, 10, 1):
-    turtle.forward(100)
+    turtle.forward(dolzina)
     turtle.penup()
-    turtle.forward(100)
+    turtle.forward(dolzina)
     turtle.pendown()
-def stopnice():
+
+def stopnice(dolzina):
   for i in range(0, 10, 1):
-    turtle.forward(100)
+    turtle.forward(dolzina)
     turtle.left(90)
-    turtle.forward(100)
+    turtle.forward(dolzina)
     turtle.right(90)
 
 def spirala():

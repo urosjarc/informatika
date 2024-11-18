@@ -53,4 +53,4 @@ def najvecji_skupni_delitelj(a, b):
             d = i
     print(d)
 
-najvecji_skupni_delitelj(10, 20)
+vsi_delitelji(12)
