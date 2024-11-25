@@ -42,6 +42,7 @@ def najvecji_delitelj(a):
         if(a % i == 0):
             print(f"Najvecji delitelj: {i}")
             break
+
 def najvecji_skupni_delitelj(a, b):
     d = 1
     if(a > b):
