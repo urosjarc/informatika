@@ -1,5 +1,3 @@
-# Programiranje
-
 ## Spirala
 
 Ustvari funkcijo z imenom `spirala`,
