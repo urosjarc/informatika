@@ -113,6 +113,13 @@ LED-ice morajo svetiti po naslednji pravilnostni tabeli...
 | 1  | 0  | 0      |
 | 1  | 1  | 1      |
 
+<details>
+
+<summary>Prikazi pomoc</summary>
+
+<img src="https://github.com/urosjarc/informatika/blob/main/media/cipi.png">
+
+</details>
 
 ### 9. Varnostna vrata
 
@@ -126,7 +133,16 @@ Pravilnostna tabela za željeno vezje je...
 | 1   | 1   | 0   | 1   | 1      |
 | ... | ... | ... | ... | 0      |
 
+<details>
+
+<summary>Prikazi pomoc</summary>
+
+<img src="https://github.com/urosjarc/informatika/blob/main/media/cipi.png">
+
+</details>
+
 ### 10. LED Semafor
+
 Sestavi digitalno vezje, ki je sestavljeno iz treh LED-ic (Rdeèa, Oranžna, Zelena) ter dveh stikal (S1, S2).
 Pravilnostna tabela za željeno vezje je...
 
@@ -137,8 +153,15 @@ Pravilnostna tabela za željeno vezje je...
 | 1  | 0  | 0      | 1       |
 | 1  | 1  | 0      | 0       |
 
-### 11. Iz tabele ustvari graf (stolpèni, èrtni, raztreseni, tortni) in ga siliraj
+<details>
+<summary>Prikazi pomoc</summary>
 
-### 12. Iz tabele ustvari vrtilno tabelo in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+<img src="https://github.com/urosjarc/informatika/blob/main/media/cipi.png">
 
-### 13. Iz tabele ustvari vrtilni grafikon in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+</details>
+
+### 11. Iz podane tabele ustvari graf (stolpèni, èrtni, raztreseni, tortni) in ga siliraj
+
+### 12. Iz podane tabele ustvari vrtilno tabelo in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+
+### 13. Iz podane tabele ustvari vrtilni grafikon in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
