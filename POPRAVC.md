@@ -92,13 +92,13 @@ if(2 > 3):
 
 </details>
 
-## Predstavi dvojiško število 1101101 v desetiškem in šestnajstiškem zapisu.
+## Napiši postopek pretvorbe dvojiškega števila 1101101 v desetiški in šestnajstiški zapis.
 
-## Koliko bitov potrebujemo èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom.
+## Napiši postopek izraèuna Koliko bitov potrebujemo, èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom.
 
-## Koliko bo natanènost digitalnega termometra èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om?
+## Napiši postopek Koliko bo natanènost digitalnega termometra, èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om?
 
-## Povej vse o tranzistorju
+## Povej vse o tranzistorju, ampak res vse, pa ne se piflat, ker bom preveril ali dejansko razumeš, kaj govoriš :)
 
 ## Digitalno vezje
 
@@ -126,7 +126,7 @@ Pravilnostna tabela za željeno vezje je...
 | 1   | 1   | 0   | 1   | 0     | 1      |
 | ... | ... | ... | ... | 1     | 0      |
 
-# 2. LED Semafor (težja naloga)
+# LED Semafor
 Sestavi digitalno vezje, ki je sestavljeno iz treh LED-ic (Rdeèa, Oranžna, Zelena) ter dveh stikal (S1, S2).
 Pravilnostna tabela za željeno vezje je...
 
@@ -136,3 +136,9 @@ Pravilnostna tabela za željeno vezje je...
 | 0  | 1  | 1      | 0       | 0     |
 | 1  | 0  | 0      | 1       | 0     |
 | 1  | 1  | 0      | 0       | 1     |
+
+# Iz tabele ustvari graf (stolpèni, èrtni, raztreseni, tortni) in ga siliraj
+
+# Iz tabele ustvari vrtilno tabelo in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+
+# Iz tabele ustvari vrtilni grafikon in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
