@@ -1,4 +1,4 @@
-## Spirala
+### 1 Spirala
 
 Ustvari funkcijo z imenom `spirala`,
 Funkcija naj ob klicu nariše neskonèno spiralo
@@ -26,7 +26,7 @@ turtle.left(90) # Obrni se levo za 90 stopinj.
 
 </details>
 
-# Babuska
+### 2. Babuska
 
 Ustvari funkcijo z imenom `babuska`,
 ki sprejme celoštevilski argument `stevilo`.
@@ -56,7 +56,7 @@ turtle.exitonclick() # Ko uporabnik klikne na zaslon koncaj program.
 
 </details>
 
-# Reka
+### 3. Reka
 
 Ustvari funkcijo `reka` ki nariše reko naslednje oblike...
 
@@ -92,53 +92,53 @@ if(2 > 3):
 
 </details>
 
-## Napiši postopek pretvorbe dvojiškega števila 1101101 v desetiški in šestnajstiški zapis. Preveril bom ali dejansko razumeš, kaj govoriš :)
+### 4. Napiši postopek pretvorbe dvojiškega števila 1101101 v desetiški in šestnajstiški zapis. Preveril bom ali dejansko razumeš, kaj govoriš :)
 
-## Napiši postopek izraèuna Koliko bitov potrebujemo, èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom. Preveril bom ali dejansko razumeš, kaj govoriš :)
+### 5. Napiši postopek izraèuna Koliko bitov potrebujemo, èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom. Preveril bom ali dejansko razumeš, kaj govoriš :)
 
-## Napiši postopek Koliko bo natanènost digitalnega termometra, èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om? Preveril bom ali dejansko razumeš, kaj govoriš :)
+### 6. Napiši postopek Koliko bo natanènost digitalnega termometra, èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om? Preveril bom ali dejansko razumeš, kaj govoriš :)
 
-## Povej vse o tranzistorju, ampak res vse, pa ne se piflat, ker bom preveril ali dejansko razumeš, kaj govoriš :)
+### 7. Povej vse o tranzistorju, ampak res vse, pa ne se piflat, ker bom preveril ali dejansko razumeš, kaj govoriš :)
 
-## Digitalno vezje
+### 8. Digitalno vezje
 
 Sestavi logièno digitalno vezje z vhodnimi stikali S1, S2 ter LED diodami...
 ki prikazujejo trenutno kombinacijo stikal...
 LED-ice morajo svetiti po naslednji pravilnostni tabeli...
 
-| S1 | S2 | Rdeèa | Oranžna | Zelena |
-|----|----|-------|---------|--------|
-| 0  | 0  | 0     | 0       | 1      |
-| 0  | 1  | 0     | 1       | 1      |
-| 1  | 0  | 0     | 0       | 0      |
-| 1  | 1  | 1     | 1       | 1      |
+| S1 | S2 | Zelena |
+|----|----|--------|
+| 0  | 0  | 0      |
+| 0  | 1  | 1      |
+| 1  | 0  | 0      |
+| 1  | 1  | 1      |
 
 
-## Varnostna vrata
+### 9. Varnostna vrata
 
 Sestavi digitalno vezje, ki je sestavljeno iz 4 stikal (S1, S2, S3, S4) ter dveh LED-ic (Rdeèa, Zelena).
 Èe uporabnik vnese pravilno zaporedje enic in nièel v 4 stikala se bodo vrata odklenila (zelena LED-ica se bo prižgala).
 V nasprotnem primeru naj sveti rdeèa LED-ica.
 Pravilnostna tabela za željeno vezje je...
 
-| S1  | S2  | S3  | S4  | Rdeèa | Zelena |
-|-----|-----|-----|-----|-------|--------|
-| 1   | 1   | 0   | 1   | 0     | 1      |
-| ... | ... | ... | ... | 1     | 0      |
+| S1  | S2  | S3  | S4  | Zelena |
+|-----|-----|-----|-----|--------|
+| 1   | 1   | 0   | 1   | 1      |
+| ... | ... | ... | ... | 0      |
 
-# LED Semafor
+### 10. LED Semafor
 Sestavi digitalno vezje, ki je sestavljeno iz treh LED-ic (Rdeèa, Oranžna, Zelena) ter dveh stikal (S1, S2).
 Pravilnostna tabela za željeno vezje je...
 
-| S1 | S2 | Zelena | Oranžna | Rdeèa |
-|----|----|--------|---------|-------|
-| 0  | 0  | 0      | 0       | 0     |
-| 0  | 1  | 1      | 0       | 0     |
-| 1  | 0  | 0      | 1       | 0     |
-| 1  | 1  | 0      | 0       | 1     |
+| S1 | S2 | Zelena | Oranžna |
+|----|----|--------|---------|
+| 0  | 0  | 0      | 0       |
+| 0  | 1  | 1      | 0       |
+| 1  | 0  | 0      | 1       |
+| 1  | 1  | 0      | 0       |
 
-# Iz tabele ustvari graf (stolpèni, èrtni, raztreseni, tortni) in ga siliraj
+### 11. Iz tabele ustvari graf (stolpèni, èrtni, raztreseni, tortni) in ga siliraj
 
-# Iz tabele ustvari vrtilno tabelo in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+### 12. Iz tabele ustvari vrtilno tabelo in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
 
-# Iz tabele ustvari vrtilni grafikon in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
+### 13. Iz tabele ustvari vrtilni grafikon in prikaži statistiko iskanega vprašanja (sortiranje, procenti, povpreèje, vsota, filtriranje)
