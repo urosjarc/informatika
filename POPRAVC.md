@@ -92,11 +92,11 @@ if(2 > 3):
 
 </details>
 
-## Napiši postopek pretvorbe dvojiškega števila 1101101 v desetiški in šestnajstiški zapis.
+## Napiši postopek pretvorbe dvojiškega števila 1101101 v desetiški in šestnajstiški zapis. Preveril bom ali dejansko razumeš, kaj govoriš :)
 
-## Napiši postopek izraèuna Koliko bitov potrebujemo, èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom.
+## Napiši postopek izraèuna Koliko bitov potrebujemo, èe želimo zapisati katero koli število med -20 in +20 z binarnim sistemom. Preveril bom ali dejansko razumeš, kaj govoriš :)
 
-## Napiši postopek Koliko bo natanènost digitalnega termometra, èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om?
+## Napiši postopek Koliko bo natanènost digitalnega termometra, èe temperaturno skalo od -20 stopinj do 100 stopinj predstavi z 1 byte-om? Preveril bom ali dejansko razumeš, kaj govoriš :)
 
 ## Povej vse o tranzistorju, ampak res vse, pa ne se piflat, ker bom preveril ali dejansko razumeš, kaj govoriš :)
 
